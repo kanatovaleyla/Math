@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <main>
         <div id="stats-container">
             <div class="stats-block">
-                <div class="CorectAnswer-container">
-                    <h1 class="Percent">0%</h1>
-                    <p class="CorectAsnwers">Правильных ответов : </p>
+                <div class="Answer-container">
+                    <div class="CorectPercent-container">
+                        <h1 class="Percent">0%</h1>
+                    </div>
+                    <div class="GeneralAnswers">
+                        <p class="CorrectAsnwrers">Количество правильных ответов : </p>
+                    </div>
                 </div>
+                <hr 
+                    style="display: flex; justify-content: center; align-items: center; position: relative; top: 0%; max-width: 625px; margin-left: 10px; margin-right: 10px;">
+
                 <div class="ProblematicTopic-container">
                     <p class="Problematic">Проблемная тема : </p>
-                    <a href="#" class="Topic">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+                    <button class="hrfProb">
+                        <a href="#" class="Topic">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+                    </button>
                 </div>
+                <img src="Skola.avif" height="100%" width="100%"
+                    style="opacity: 50%; z-index: -1; position: relative; bottom: 81.200%;">
+                    
             </div>
         </div>
     </main>
 </body>
+
 </html>

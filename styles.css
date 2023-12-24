@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    z-index: 2;
 }
 
 #stats-container {
@@ -15,43 +16,62 @@
     position: relative;
     top: 20%;
     margin: 0 auto;
-    background: #E4E4E4;
-    border: 2px solid rgb(104, 104, 104);
-    border-radius: 5px;
-    max-width: 660px;
+    background: #ebebeb;
+    border: 2px solid rgb(68, 104, 71);
+    border-radius: 1px;
+    max-width: 650px;
     height: 355px;
 }
 
-.CorectAnswer-container {
-    margin: 20px 0px 0px 28px;
+.Answer-container {
+    max-width: 100%;
+}
+
+.CorectPercent-container {
+    margin: 35px 0px 0px 23px;
     border: 1px solid rgb(104, 104, 104);
-    background: #C9C9C9;
-    border-radius: 3px;
-    max-width: 320px;
-    height: 100px;
+    background: #e2e2e2;
+    border-radius: 1px;
+    max-width: 150px;
+    height: 60px;
 }
 
 .Percent {
     display: flex;
-    border-bottom: 1px solid rgb(104, 104, 104);
-    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
 }
 
-.CorectAsnwers {
+.CorrectAsnwrers {
     margin: 10px 0px 0px 10px;
     font-size: 16px;
+}
+
+.GeneralAnswers {
+    display: flex;
+    border: 1px solid rgb(104, 104, 104);
+    background: #e2e2e2;
+    border-radius: 1px;
+    max-width: 300px;
+    height: 60px;
+    position: relative;
+    left: 30vh;
+    bottom: 9.650vh;
 }
 
 .ProblematicTopic-container {
     margin: 0 auto;
     padding-right: 2.01px;
     position: relative;
-    top: 15%;
+    top: 10%;
     max-width: 600px;
-    height: 155px;
+    height: 125px;
     border: 1px solid rgb(104, 104, 104);
-    background: #C9C9C9;
-    border-radius: 3px;
+    background: #e2e2e2;
+    border-radius: 1px;
 }
 
 .Problematic {
@@ -62,4 +82,10 @@
 .Topic {
     margin: 0px 0px 0px 10px;
     color: rgb(48, 85, 252);
+}
+
+.hrfProb {
+    border: none;
+    background-color: #e2e2e2;
+    padding: 10px 0px 0px 0px;
 }
