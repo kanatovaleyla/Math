@@ -3,6 +3,7 @@
 * {
     margin: 0;
     z-index: 2;
+    overflow: hidden;
 }
 
 #stats-container {
@@ -18,7 +19,7 @@
     margin: 0 auto;
     background: #ebebeb;
     border: 2px solid rgb(68, 104, 71);
-    border-radius: 1px;
+    border-radius: 15px;
     max-width: 650px;
     height: 355px;
 }
@@ -46,8 +47,19 @@
 }
 
 .CorrectAsnwrers {
+    display: flex;
     margin: 10px 0px 0px 10px;
     font-size: 16px;
+    width: 100%;
+    height: 15px;
+}
+
+.WrongAsnwers {
+    display: flex;
+    margin: 10px 0px 0px 10px;
+    font-size: 16px;
+    width: 100%;
+    height: 15px;
 }
 
 .GeneralAnswers {
